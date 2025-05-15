@@ -1,0 +1,12 @@
+{
+    "num_devices": 3,
+    "update_interval_sec": 2,
+    "normal_ranges": {
+        "temperature": {"min": 18.0, "max": 30.0},
+        "humidity": {"min": 40.0, "max": 80.0}
+    },
+    "anomaly_settings": {
+        "probability": 0.1,
+        "temperature_range": {"min": 50.0, "max": 100.0}
+    }
+}
